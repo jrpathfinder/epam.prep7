@@ -1,0 +1,14 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: ae9dd78f5c139c50565a
+            clientSecret: b8a43a68de98b9189774a21b0b50be2bef7c9bbe
+  flyway:
+    enabled: true
+jwt:
+  secret: very-very-secret-key-should-be-almost-infinity
+  expiration: 86400
+
